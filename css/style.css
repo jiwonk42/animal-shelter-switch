@@ -1,3 +1,7 @@
+.header {
+  font-family: 'Quicksand', sans-serif;
+}
+
 .column {
   width: 500px;
   float: left;
@@ -5,6 +9,10 @@
 
 img {
   width: 100%;
+}
+
+.image-size{
+  width: 150px;
 }
 
 .special {
