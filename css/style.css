@@ -1,6 +1,9 @@
 body {
   font-family: 'Quicksand', sans-serif;
-  
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right bottom;
 }
 
 .name {
@@ -10,10 +13,14 @@ body {
   background-color: white;
   text-align: center;
   padding-bottom: 20px;
+  width: 100%;
 }
 
 .header {
   font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  line-height: 10px;
 }
 
 .column {
@@ -32,7 +39,7 @@ img {
 }
 
 .image-size{
-  width: 150px;
+  width: 200px;
 }
 
 .special {
@@ -43,5 +50,13 @@ img {
 .sidebar {
   float: right;
   width: 20%;
+  font-size: 15px;
+  text-align: right;
 
+}
+
+ul {
+  list-style-type: none;
+  line-height: 50px;
+  font-size: 25px;
 }
