@@ -23,6 +23,10 @@ body {
   line-height: 10px;
 }
 
+.float {
+  width: 80%;
+}
+
 .column {
   width: 500px;
   float: left;
