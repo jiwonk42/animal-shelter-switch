@@ -7,6 +7,7 @@ img {
   width: 100%;
 }
 
-em {
-  
+.special {
+  font-style: normal;
+  color: red;
 }
