@@ -1,3 +1,12 @@
+.name {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
+  border: 4px solid black;
+  background-color: white;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
 .header {
   font-family: 'Quicksand', sans-serif;
 }
@@ -5,6 +14,12 @@
 .column {
   width: 500px;
   float: left;
+  margin: 20px;
+}
+
+.column img {
+    border: 2px solid black;
+    padding: 10px;
 }
 
 img {
@@ -18,4 +33,10 @@ img {
 .special {
   font-style: normal;
   color: red;
+}
+
+.sidebar {
+  float: right;
+  width: 20%;
+  position: fixed-right;
 }
