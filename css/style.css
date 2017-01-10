@@ -1,3 +1,11 @@
+.switch {
+  background-color: black;
+  color: white;
+}
+
+.switchColumn {
+  color: black;
+}
 
 @media screen and (min-width: 768px) {
   .column {
